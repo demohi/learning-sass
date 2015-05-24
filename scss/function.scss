@@ -1,0 +1,8 @@
+@function golden-ratio($n) {
+  @return $n * 0.618;
+}
+
+.golden-box {
+  width: 200px;
+  height: golden-ratio(200px);
+}
